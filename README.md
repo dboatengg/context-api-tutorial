@@ -9,15 +9,19 @@ To run the code in this repository, you'll need Node.js and npm installed on you
 1.  Clone this repository: `git clone https://github.com/your-username/react-context-api-article.git`
 2.  Change into the project directory: `cd react-context-api-article`
 3.  Install the dependencies: `npm install`
-4.  Start the development server: `npm start`
+4.  Start the development server: `npm run dev`
 
 ## Article
 
 The article associated with this repository can be found [here](https://your-blog-url.com/react-context-api-article). It covers the following topics:
 
-- What is React Context API?
-- Why use React Context API over other state management solutions?
-- How to use React Context API in a simple React application.
+- Introudction Context API?
+- The Problem with Passing Props
+- Understanding Context API
+- Getting Started with Context API
+- Some Use Cases
+- Best Practices
+- Conclusion
 
 ## Resources
 
@@ -25,6 +29,10 @@ This repository contains the following resources:
 
 - `src/App.js`: the main application code, demonstrating how to use React Context API
 - `src/context`: the Context object that provides data to the child components
+
+## Author
+
+- [Dickson Boateng](https://www.twitter.com/dboatengx)
 
 ## Conclusion
 
