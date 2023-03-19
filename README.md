@@ -13,7 +13,7 @@ To run the code in this repository, you'll need Node.js and npm installed on you
 
 ## Demo & About Article
 
-The article associated with this repository can be found [here](https://your-blog-url.com/react-context-api-article). <br>
+The article associated with this repository can be found [here](https://your-blog-url.com/react-context-api-article). <br><br>
 It covers the following topics:
 
 - Introudction Context API?
