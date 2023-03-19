@@ -11,9 +11,10 @@ To run the code in this repository, you'll need Node.js and npm installed on you
 3.  Install the dependencies: `npm install`
 4.  Start the development server: `npm run dev`
 
-## Article
+## Demo & About Article
 
-The article associated with this repository can be found [here](https://your-blog-url.com/react-context-api-article). It covers the following topics:
+The article associated with this repository can be found [here](https://your-blog-url.com/react-context-api-article). <br>
+It covers the following topics:
 
 - Introudction Context API?
 - The Problem with Passing Props
