@@ -37,4 +37,4 @@ This repository contains the following resources:
 
 ## Conclusion
 
-React Context API is a powerful tool for managing state in a React application. With its simple API and ability to provide data to child components without prop drilling, it can make your code more efficient and easier to maintain. If you're interested in learning more, be sure to check out the article associated with this repository!
+React Context API is a powerful tool for managing state in a React application. With its simple API and ability to provide data to child components without prop drilling, it can make your code more efficient and easier to maintain. If you're interested in learning more, be sure to check out the article.
