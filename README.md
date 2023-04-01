@@ -13,7 +13,7 @@ To run the code in this repository, you'll need Node.js and npm installed on you
 
 ## Demo & About Article
 
-The article associated with this repository can be found [here](https://your-blog-url.com/react-context-api-article). <br><br>
+The article associated with this repository can be found [here](https://www.freecodecamp.org/news/context-api-in-react/). <br><br>
 It covers the following topics:
 
 - Introudction Context API?
@@ -37,4 +37,4 @@ This repository contains the following resources:
 
 ## Conclusion
 
-React Context API is a powerful tool for managing state in a React application. With its simple API and ability to provide data to child components without prop drilling, it can make your code more efficient and easier to maintain. If you're interested in learning more, be sure to check out the article associated with this repository!
+React Context API is a powerful tool for managing state in a React application. With its simple API and ability to provide data to child components without prop drilling, it can make your code more efficient and easier to maintain. If you're interested in learning more, be sure to check out the article.
