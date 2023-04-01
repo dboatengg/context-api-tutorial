@@ -1,18 +1,30 @@
-import { createContext, useState } from "react";
-import GrandChhild from "./components/GrandChild";
+import { useState } from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
+import { ThemeContext } from "./ThemeContext";
 
-export const AppContext = createContext(null);
+import "./index.css";
 
-const App = () => {
-  const [text, setText] = useState("");
+function App() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+  };
   return (
-    <AppContext.Provider value={{ setText }}>
-      <div>
-        <GrandChhild />
-        <h1>{text}</h1>
-      </div>
-    </AppContext.Provider>
+    <div className={isDarkMode ? "App dark" : "App"}>
+      <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
+        <Header />
+        <Hero />
+        <About />
+        <CallToAction />
+        <Footer />
+      </ThemeContext.Provider>
+    </div>
   );
-};
+}
 
 export default App;
